@@ -1,1 +1,1 @@
-![](https://dolivares11.github.io/cse15l-lab-reports/Santa.png)
+![Image](https://github.com/dolivares11/cse15l-lab-reports/blob/main/Santa.png)
