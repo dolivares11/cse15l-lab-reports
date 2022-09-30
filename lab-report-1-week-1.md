@@ -1,7 +1,7 @@
 # Week 1 Lab Report
 
 ## Installing VScode
-![image](lab1pic1.png)
+![image](screenshots/lab1pic1.png)
 ## Remotely Connecting
 
 ## Trying Some Commands
