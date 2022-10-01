@@ -22,10 +22,14 @@
 
 ## Moving Files with scp
 ![image](screenshots/lab1pic4.png)
-
+- I had the file WhereAmI.java on my current machine, and I wanted to used scp to get it over to the remote server. 
+- I exited the remote server using command "exit", then I used the scp command to choose the file I wanted to copy over, and what username.
+- I put in my password, logged back into the remote server, and checked using ls to see the files in my current directory.
 
 ## Setting an SSH Key
 ![image](screenshots/lab1pic5.png)
-
+- I used the command "ssh-keygen" from my current machine, and let it save the key to the default file using no passphrase.
+- I logged back into the server using ssh, and made a new directory .ssh.
+- I went back to my current machine and scp the file location of the public key to the .ssh held within the remote server.
 
 ## Optimizing Remote Running
