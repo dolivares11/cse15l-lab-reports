@@ -33,3 +33,7 @@
 - I went back to my current machine and scp the file location of the public key to the .ssh held within the remote server.
 
 ## Optimizing Remote Running
+![image](screenshots/lab1pic8.png)
+- I attempted to put everything into one line to be able to just use one up arrow and enter after the file was edited and saved.
+- However, that did not work and I ended up splitting it into three commands
+- Therefore, I would have to do up arrow and enter three times after editing and saving the file.
