@@ -116,3 +116,7 @@ public class Server {
 
 
 ## Part 2
+![image](screenshots/lab2pic6.png)
+![image](screenshots/lab2pic7.png)
+![image](screenshots/lab2pic8.png)
+The bug from 
