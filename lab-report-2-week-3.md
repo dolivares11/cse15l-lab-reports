@@ -105,7 +105,11 @@ public class Server {
     }
 }
 ~~~
-
+![image](screenshots/lab2pic1.png)
+![image](screenshots/lab2pic2.png)
+![image](screenshots/lab2pic3.png)
+![image](screenshots/lab2pic4.png)
+![image](screenshots/lab2pic5.png)
 
 
 
