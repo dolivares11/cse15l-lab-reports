@@ -1,6 +1,7 @@
 # Week 3 Lab Report
 
 ## Part 1
+~~~
 {
 import java.io.IOException;
 import java.net.URI;
@@ -60,4 +61,5 @@ class SearchEngine {
 }
 
 }
+~~~
 ## Part 2
