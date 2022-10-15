@@ -3,7 +3,6 @@
 ## Part 1
 ### SearchEngine.java
 ~~~
-{
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -13,18 +12,12 @@ class Handler implements URLHandler {
     ArrayList<String> list = new ArrayList<String>();
 
     public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return String.format("Number: %d", num);
-        } else if (url.getPath().equals("/increment")) {
-            num += 1;
-            return String.format("Number incremented!");
-        } else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add")) {
                 String[] parameters = url.getQuery().split("=");
                 if(parameters[0].equals("s")) {
                     list.add(parameters[1]);
-                    return "added " + list.get(list.size()-1) + "\n size: " + list.size();
+                    return "added " + list.get(list.size()-1) + "\n size of list: " + list.size();
                 }
             }
             else if(url.getPath().contains("/search")) {
@@ -44,7 +37,6 @@ class Handler implements URLHandler {
                 }
             }
             return "404 Not Found!";
-        }
     }
 }
 
@@ -60,12 +52,9 @@ class SearchEngine {
         Server.start(port, new Handler());
     }
 }
-
-}
 ~~~
 ### Server.java
 ~~~
-{
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
@@ -115,6 +104,9 @@ public class Server {
         System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
     }
 }
-}
 ~~~
+
+
+
+
 ## Part 2
