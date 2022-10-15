@@ -125,9 +125,7 @@ public class Server {
 - The bug was that the method was not adding new elements to the array it created, but it was trying to flip itself around.
 - The bug causes that particular symptom for that particular input because of the way the the array was modifying itself and not the new array created. 
 ### Merge Method
-### Fixed
 ![image](screenshots/lab2pic9.png)
-### Error
 ![image](screenshots/lab2pic11.png)
 - The failure-inducing input for the merge method was two lists: {george, jake, joke, pancake}, and {potato, zebra}.
 - The symptom was that the code would run forever.
