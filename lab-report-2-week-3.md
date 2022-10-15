@@ -116,7 +116,7 @@ public class Server {
 
 
 ## Part 2
-
+### Reversed Method
 ![image](screenshots/lab2pic6.png)
 ![image](screenshots/lab2pic10.png)
 ![image](screenshots/lab2pic8.png)
@@ -124,7 +124,7 @@ public class Server {
 - The symptom was that the code was expecting 5 for the first element, but got 0.
 - The bug was that the method was not adding new elements to the array it created, but it was trying to flip itself around.
 - The bug causes that particular symptom for that particular input because of the way the the array was modifying itself and not the new array created. 
-
+### Merge Method
 ### Fixed
 ![image](screenshots/lab2pic9.png)
 ### Error
