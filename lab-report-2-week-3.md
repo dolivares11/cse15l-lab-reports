@@ -126,5 +126,8 @@ public class Server {
 - The bug causes that particular symptom for that particular input because of the way the the array was modifying itself and not the new array created. 
 
 ![image](screenshots/lab2pic9.png)
-
+- The failure-inducing input for the merge method was two lists: {george, jake, joke, pancake}, and {potato, zebra}.
+- The symptom was that the code would run forever.
+- The bug was that the last while loop was adding 1 to index1, not incremmenting index2, so that while loop became an infinite loop.
+- The bug caused that particular symptom for that particular input, and it would have caused it for any input because anytime it would go into the second array it could not get out when trying to combine both lists together.
 
