@@ -116,7 +116,15 @@ public class Server {
 
 
 ## Part 2
+
 ![image](screenshots/lab2pic6.png)
-![image](screenshots/lab2pic7.png)
+![image](screenshots/lab2pic10.png)
 ![image](screenshots/lab2pic8.png)
-The bug from 
+- The failure-inducing input for static int[]reversed(int[] arr) was an array that was {1,2,3,4,5}.
+- The symptom was that the code was expecting 5 for the first element, but got 0.
+- The bug was that the method was not adding new elements to the array it created, but it was trying to flip itself around.
+- The bug causes that particular symptom for that particular input because of the way the the array was modifying itself and not the new array created. 
+
+![image](screenshots/lab2pic9.png)
+
+
