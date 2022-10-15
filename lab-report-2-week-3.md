@@ -110,7 +110,9 @@ public class Server {
 ![image](screenshots/lab2pic3.png)
 ![image](screenshots/lab2pic4.png)
 ![image](screenshots/lab2pic5.png)
-
+- The methods that are called in my code are /add and /search.
+- The relevant arguments to those methods are, and the values that go into the query /add is adding those strings inputted to a list, and /search is using the input to search if it is a substring of any of the words in the list.
+- The elements inside of the list change everytime the user uses the /add method to add a string to the list. 
 
 
 ## Part 2
