@@ -106,13 +106,25 @@ public class Server {
 }
 ~~~
 ![image](screenshots/lab2pic1.png)
+- The method that is called in my code is /add.
+- The values of the relevant arguments to those method are what comes after the equal sign, which will be added to a list.
+- The string after the equal sign, "apple" is added to a list and the new current size of the list is printed.
 ![image](screenshots/lab2pic2.png)
+- The method that is called in my code is /add.
+- The values of the relevant arguments to those method are what comes after the equal sign, which will be added to a list.
+- The string after the equal sign, "horse" is added to a list and the new current size of the list is printed.
 ![image](screenshots/lab2pic3.png)
+- The method that is called in my code is /add.
+- The values of the relevant arguments to those method are what comes after the equal sign, which will be added to a list.
+- The string after the equal sign, "pineapple" is added to a list and the new current size of the list is printed.
 ![image](screenshots/lab2pic4.png)
+- The method that is called in my code is /add.
+- The values of the relevant arguments to those method are what comes after the equal sign, which will be added to a list.
+- The string after the equal sign, "george" is added to a list and the new current size of the list is printed.
 ![image](screenshots/lab2pic5.png)
-- The methods that are called in my code are /add and /search.
-- The relevant arguments to those methods are, and the values that go into the query /add is adding those strings inputted to a list, and /search is using the input to search if it is a substring of any of the words in the list.
-- The elements inside of the list change everytime the user uses the /add method to add a string to the list. 
+- The methods that are called in my code is /search.
+- The relevant arguments to those methods is /search, which is using the input to search if it is a substring of any of the words in the list.
+- The elements inside of the list change everytime the user uses the /add method to add a string to the list. During this /search, the list that was created using the /add is traversed through and elements containing the substring are put into a new list and outputted.
 
 
 ## Part 2
