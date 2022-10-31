@@ -115,6 +115,7 @@ $ grep -m 5 "2" rr74.txt
           We studied F1-generation SV129 (Taconic, Germantown,
           Within 24-36 h of birth, pups and dam were placed in
 ~~~
+The option -m here is to count a maximum occurrences of 5 of the word "2". This is useful because if I only wanted the first x number of occurrences of a certain word, then that would be available to me.
 ~~~
 $ grep -m 10 "B" rr167.txt
         Burkholderia cepacia has become the
@@ -128,6 +129,7 @@ $ grep -m 10 "B" rr167.txt
         B. cepacia syndrome, which results in
         B. cepacia as well as
 ~~~
+The option -m here is to count the maximum occurences of "B" 10 times. It presents the first 10 times that B is presented to me in the rr167.txt. The usefulness of this is that it allows the user to be able to find the first x number of occurrences that they want and nothing else if it is not relevant to them.
 ~~~
 $ grep -m 10 "P " rr196.txt
           P = 0.001).
@@ -141,3 +143,4 @@ $ grep -m 10 "P " rr196.txt
           P = 0.99).
           P value of 0.015, and the
 ~~~
+The option -m here is to count the maximum occurrences of "P" 10 times. The usefulness of this is that if there were more than 10 times "P" showed up, but we only wanted the first x amount of times then the -m option allows us to do that.
