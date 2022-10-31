@@ -1,6 +1,6 @@
 # Week 5 Lab Report 3
 ## Researching Commands (grep)
-### grep -c pattern filename
+### grep -c 
 ~~~
 $ grep -c NO rr74.txt
 114
