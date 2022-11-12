@@ -4,4 +4,9 @@
 ~~~
 /start <Enter> cebase <Esc> n.n.n :wq <Enter>
 ~~~
+![image](screenshots/lab4pic1.png)
+![image](screenshots/lab4pic2.png)
+![image](screenshots/lab4pic3.png)
+![image](screenshots/lab4pic4.png)
+![image](screenshots/lab4pic5.png)
 ## Part 2
