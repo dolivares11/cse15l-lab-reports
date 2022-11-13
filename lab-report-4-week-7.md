@@ -35,3 +35,8 @@ Keys Pressed
 ```
 - ":wq" and enter will save and exit the file!
 ## Part 2
+It took me 84 seconds to make the edits in Visual Studio Code, scp the file to the remote server, log onto the remote server, and run test.sh.
+It took me 57 seconds to make the edits using vim, and then testing if it worked by running test.sh.
+Of the two styles, I prefer using vim if I had to work on a program that I was running remotely. Vim just provides a much quicker, and efficient way to edit and grow through the file without having to scp after every change you want to see made. 
+A factor in my decision would be if I was not super familiar with the language, then I would probably use Visual Studio Code and scp, so that I have that option of my text editor helping me with syntax. Another factor could be how many files I am changing because having to scp a lot of different files may get tedious.
+
