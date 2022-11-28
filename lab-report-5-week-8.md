@@ -23,7 +23,6 @@ else
     echo "1/9"
     exit 1
 fi
-set -x
 #javac -cp ".;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" *.java 2> error.txt
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> error.txt
 if [[ $? -eq 0 ]]
