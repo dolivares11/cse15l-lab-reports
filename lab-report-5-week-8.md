@@ -71,8 +71,8 @@ fi
 - Although the rest of the lines do not run since it did not compile, but the next would have been running TestListExamples on the java line and the standard output would go to results.txt
 - grep -q "OK" results.txt returns a zero if it can find "OK" and a non zero if it can't
 - This leads me to my if statement if [[ $? -eq 0 ]], which echos 9/9 if it passed all the tests. 
-- If it didn't pass all the tests it would go to the bottom where I used two greps using | to use the output of my first grep statement as the output modified for my second grep statement
-- The next is using cat results.txt | grep "Tests run:" to print out the rest of the line after and including "Tests run:", which will allow the student to know how many of the tests they failed!
+- If it didn't pass all the tests it would go to the bottom where I used two greps using "|" to use the output of my first grep statement as the output modified for my second grep statement
+- The next is using cat results.txt "|" grep "Tests run:" to print out the rest of the line after and including "Tests run:", which will allow the student to know how many of the tests they failed!
 - I echo this result
 - I calculate the score based on the failed test from 1-5
 - I give them their score out of 9
