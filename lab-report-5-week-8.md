@@ -51,4 +51,8 @@ else
     exit 1
 fi
 ```
+![image](screenshots/lab5pic1.png)
+![image](screenshots/lab5pic2.png)
+![image](screenshots/lab5pic3.png)
+
 
