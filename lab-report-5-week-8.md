@@ -1,8 +1,7 @@
 # Week 8 Lab Report 5
 ```
-# Create your grading script here
 rm -rf student-submission
-git clone $1 student-submission
+git clone $1 student-submission -q
 
 if [[ $? -eq 0 ]]
 then
@@ -24,9 +23,9 @@ else
     echo "1/9"
     exit 1
 fi
-
-javac -cp ".;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" *.java 2> compile-err.txt
-
+set -x
+#javac -cp ".;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" *.java 2> error.txt
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java 2> error.txt
 if [[ $? -eq 0 ]]
 then
     echo "The tests were compiled successfully"
@@ -35,7 +34,9 @@ else
     echo "2/9"
     exit 1
 fi
-java -cp ".;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples > results.txt
+
+#java -cp ".;./lib/hamcrest-core-1.3.jar;./lib/junit-4.13.2.jar" org.junit.runner.JUnitCore TestListExamples > results.txt
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > results.txt
 grep -q "OK" results.txt
 
 if [[ $? -eq 0 ]]
