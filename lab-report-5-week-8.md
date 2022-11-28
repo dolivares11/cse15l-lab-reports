@@ -76,6 +76,7 @@ fi
 - I echo this result
 - I calculate the score based on the failed test from 1-5
 - I give them their score out of 9
+- I exit
 ![image](screenshots/lab5pic3.png)
 
 
