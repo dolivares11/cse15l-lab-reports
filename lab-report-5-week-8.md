@@ -1,7 +1,7 @@
 # Week 8 Lab Report 5
 ```
 rm -rf student-submission
-git clone $1 student-submission -q
+git clone $1 student-submission
 
 if [[ $? -eq 0 ]]
 then
@@ -53,6 +53,8 @@ fi
 ```
 ![image](screenshots/lab5pic1.png)
 ![image](screenshots/lab5pic2.png)
+-"rm -rf student-submission" is supposed to remove the insides of any previous file that already has this directory name!
+-
 ![image](screenshots/lab5pic3.png)
 
 
